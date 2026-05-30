@@ -1,3 +1,26 @@
+'''
+- Input
+    lựa chọn menu
+    id sản phẩm 
+    số lg
+    mã giảm giá
+- output
+    dữ liệu đã chuẩn hóa
+    thông báo thành công hc lỗi
+- các hàm cần dùng: remove, get, strip, upper, isdigit, 
+- Pseudocode 
+- in menu
+- nhận lựa chọn 
+- 1: hiện ra bảng
+- 2: nhập id, ktra id có tồn tại k, có cho mua, không thì báo lỗi
+- 3: nhập id, ktra id có tồn tại k, có check tiếp số lg nhậpp với lịch sử bán, nếu hợp lệ mới cho đổi cho đôi, không thì báo lỗi
+- 4: nhập id, ktra id có tồn tại k, có thì check inout hợp lệ k nếu có thì cập nhật
+- 5: nhập id, ktra id có tồn tại k, có cho nhập, không thì báo lỗi
+- 6: thoát
+
+'''
+
+
 product_list = [
     {
         "product_id": "SP001",
@@ -164,25 +187,3 @@ Mời bạn nhập lựa chọn: '''
         case _:
             print("Lỗi cú pháp, vui lòng nhập lại!!!")
             
-
-'''
-- Input
-    lựa chọn menu
-    id sản phẩm 
-    số lg
-    mã giảm giá
-- output
-    dữ liệu đã chuẩn hóa
-    thông báo thành công hc lỗi
-- các hàm cần dùng: remove, get, strip, upper, isdigit, 
-- Pseudocode 
-- in menu
-- nhận lựa chọn 
-- 1: hiện ra bảng
-- 2: nhập id, ktra id có tồn tại k, có cho mua, không thì báo lỗi
-- 3: nhập id, ktra id có tồn tại k, có check tiếp số lg nhậpp với lịch sử bán, nếu hợp lệ mới cho đổi cho đôi, không thì báo lỗi
-- 4: nhập id, ktra id có tồn tại k, có thì check inout hợp lệ k nếu có thì cập nhật
-- 5: nhập id, ktra id có tồn tại k, có cho nhập, không thì báo lỗi
-- 6: thoát
-
-'''
